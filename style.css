@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    font-family: "Tahoma", Tahoma, serif;
+        text-align: left;
+        font-size: 14px;
+}
+
+
+
+a:link {
+    color: #4DBCE9;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #4DBCE9;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: #ffffff;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:active {
+    color: #4DBCE9;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+
+h1{
+     font-family: "Tahoma", Tahoma, serif;
+        text-align: center;
+        font-size: 80px;
+        color: #404457;
+        align-content: center;
+
+
+}
+
+h2{
+     font-family: "Tahoma", Tahoma, serif;
+        text-align: center;
+        font-size: 24px;
+        color: #000000;
+
+}
+
+h3{
+          font-family: "Tahoma", Tahoma, serif;
+        text-align: center;
+        font-size: 14px;
+        color: #000000;
+
+
+}
+
+ 
+
+  p{    font-family: "Tahoma", Tahoma, serif;
+        text-align: left;
+        font-size: 14px;
+        color: #000000;
+
+    }
+
+
+
+body {
+  margin: 0;
+        margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+background-color: #d8d8d8;
+} 
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #404457;
+}
+
+li {
+    float: left;
+    border-right:1px solid #404457;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #4DBCE9;
+}
+
+.active {
+    background-color: #4DBCE9;
+}
+
+/* Middle column */
+.column.middle {
+    width: 100%;
+   background-color: #ffffff;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+
+
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.footer{
+   background-color: #E7E7E5;
+    font-family: "Tahoma", Tahoma, serif;
+        text-align: center;
+    }
+
+
+
+
+
+
